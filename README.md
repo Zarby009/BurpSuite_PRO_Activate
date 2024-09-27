@@ -17,29 +17,12 @@ Bem-vindo à sua jornada de instalação do BurpSuite Pro! Siga os passos abaixo
 3. **Acesse a pasta do projeto**:
     ```bash
     cd BurpSuite-Pro-Latest
-    ```
-4. **Execute o Script de Instalação (Irá baixar automaticamente o BurpPro.java)**:
-    ```bash
-    sudo sh install.sh
-    ```
-    O que ele faz? baixa automaticamente o Burp Pro com .jar e coloca dentro do executável Burp esse código para facilitar a inicializacao:
+4. **Se quiser, pode inicializar assim:**
+   ### com o arquivo do BurpSuite.jar na mesma pasta do projeto faça:
    ```bash
-    java --add-opens=java.desktop/javax.swing=ALL-UNNAMED--add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -javaagent:$(pwd)/loader.jar -noverify -jar $(pwd)/burpsuite_pro_v$version.jar &
-   ```
-5. **Se quiser, pode inicializar com:**
-   com o arquivo do BurpSuite.jar na mesma pasta do projeto:
-   ```bash
-   java -jar loader.jar com o arquivo do BurpSuite.jar na mesma pasta do projeto
-    ```
-    ou
-digitar apenas Burp (apenas se tiver rodado o install.sh)
-   ```bash
-   Burp
-
+   java -jar loader.jar 
     ```
 
-
-   
 ---
 # Se der erro: 
    - verifique o nome do burppro, renomeie ele para mais ou menos assim: burpsuite_pro_v2024-1-1.jar
