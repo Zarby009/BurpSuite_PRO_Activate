@@ -71,7 +71,7 @@ Agora você deve estar pronto para utilizar o BurpSuite Pro com a licença ativa
 
 
 **Observações Importantes**
-* Modifique a String da Licença: Altere a string de licença do carregador para "license to XXXXXXX", por exemplo, "license to xiv3r".
+* Modifique a String da Licença: Altere a string de licença do carregador para "license to XXXXXXX", por exemplo, "license to master".
 * Copie a Chave de Licença: Pegue a chave do carregador e cole no BurpSuite, em seguida, clique em Próximo.
 * Ativação Manual: Selecione a opção de Ativação Manual.
 * Solicitação de Licença: Copie a solicitação de licença do BurpSuite Pro e cole no Keygenerator.
